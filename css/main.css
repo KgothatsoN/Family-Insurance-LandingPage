@@ -1,1 +1,30 @@
+body    {
+    padding: 0;
+    margin: 0;
+}
+a   {
+    text-decoration: none;
+}
+li  {
+    list-style: none;
+}
 
+.container  {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* Footer Styling */
+.footer-container   {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        width:95%
+    }
+}
