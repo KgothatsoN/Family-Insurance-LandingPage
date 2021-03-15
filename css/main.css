@@ -14,16 +14,20 @@ li  {
     margin: 0 auto;
 }
 
-
+.how-we-work {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Footer Styling */
 .footer-container   {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2rem;
+    width: 1440px;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200){
     .container{
         width:95%
     }
