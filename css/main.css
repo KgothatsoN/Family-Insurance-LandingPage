@@ -1,6 +1,7 @@
 body    {
     padding: 0;
     margin: 0;
+    font-weight: 400;
 }
 a   {
     text-decoration: none;
@@ -12,9 +13,12 @@ ul  {
     margin: 0;
 }
 .container  {
-    width: 1440px;
+    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
+
+/* Desktop Navigation Bar Styling */
 .title  {
     margin: 1rem;
 }
@@ -29,7 +33,6 @@ ul  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10rem 0 10rem;
 }
 
 .navbar-links   {
@@ -50,34 +53,59 @@ ul  {
 }
 
 .view-plans {
-    border: 1px solid black;
+    border: 1px solid #2b2b2b;
     padding: .5rem;
     border-radius: 5px;
-    background-color: hsl(256, 26%, 20%);
+    background-color: #2b2b2b;
 }
 .view-plans:hover   {
-    background-color: hsl(273, 4%, 51%);
-    border-color: hsl(273, 4%, 51%);
+    background-color: black;
+    border-color: black;
 }
 a.view-plans:hover {
     color: white;
 }
 
+.s1 {
+    background-color: black;
+}
+.s1-group    {
+    display: flex;
+}
+.left-col    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+.view-btn   {
+    border: 1px solid white;
+    padding: 1rem;
+    width: 5rem;
+    color: white;
+}
+
+.right-col  {
+    padding-right: 5rem;
+}
+
+.desktop-image {
+    position: relative;
+    top: 5rem;
+    box-shadow: 0 0 12px 5px black;
+}
+
 .how-we-work {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
 }
 
 /* Footer Styling */
 .footer-container   {
     display: flex;
     justify-content: space-around;
-    width: 1440px;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 1200){
-    .container{
-        width:95%
-    }
 }
