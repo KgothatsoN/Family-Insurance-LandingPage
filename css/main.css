@@ -8,10 +8,59 @@ a   {
 li  {
     list-style: none;
 }
-
+ul  {
+    margin: 0;
+}
 .container  {
     width: 1440px;
     margin: 0 auto;
+}
+.title  {
+    margin: 1rem;
+}
+.title a    {
+    color: black;
+    font-size: 2rem;
+}
+.title a:hover    {
+    color: hsl(216, 30%, 68%);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10rem 0 10rem;
+}
+
+.navbar-links   {
+    display: flex;
+}
+
+.navbar-links li    {
+    padding: 1rem;
+}
+
+.navbar-links a {
+    color: hsl(216, 30%, 68%);
+    font-size: 1.1rem;
+}
+
+.navbar-links a:hover   {
+    color: hsl(256, 26%, 20%);
+}
+
+.view-plans {
+    border: 1px solid black;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: hsl(256, 26%, 20%);
+}
+.view-plans:hover   {
+    background-color: hsl(273, 4%, 51%);
+    border-color: hsl(273, 4%, 51%);
+}
+a.view-plans:hover {
+    color: white;
 }
 
 .how-we-work {
