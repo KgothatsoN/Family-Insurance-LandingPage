@@ -215,12 +215,16 @@ a.view-plans:hover {
     .s1 {
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
     .s1-group   {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
-    
+    .left-col   {
+        align-items: center;
+    }
     .right-col  {
         padding: 0;
     }
