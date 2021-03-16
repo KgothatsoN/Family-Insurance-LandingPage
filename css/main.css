@@ -206,7 +206,7 @@ a.view-plans:hover {
 
 /* Media Query for different resolutions */
 /* Mobile Design */
-@media (max-width: 425px)  {
+@media (max-width: 480px)  {
     .container  {
         width: 95%;
     }
