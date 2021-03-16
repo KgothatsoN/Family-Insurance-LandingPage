@@ -21,3 +21,4 @@ Fully functional hamburger navigation using javascript.
 ![](public/mobilemainview.png) ![](public/activenavbar.png)
 
 ![](public/mobilepeopleview.png) ![](public/mobilehwrview.png)
+
