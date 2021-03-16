@@ -1,6 +1,7 @@
 body    {
     padding: 0;
     margin: 0;
+    
 }
 
 h1,h2   {
@@ -30,10 +31,11 @@ ul  {
 /* Desktop Navigation Bar Styling */
 .title  {
     margin: 1.5rem 0 1.5rem 0;
+    font-family: 'Bebas Neue', cursive;
 }
 .title a    {
     color: black;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .title a:hover    {
     color: hsl(216, 30%, 68%);
@@ -209,12 +211,14 @@ a.view-plans:hover {
     }
     .title  {
         margin: 10px;
+        font-style: 2rem;
     }
     .navbar-links   {
         display: none;
     }
     .hamburger  {
         display: flex;
+        top: 2rem;
     }
     .s1 {
         display: flex;
