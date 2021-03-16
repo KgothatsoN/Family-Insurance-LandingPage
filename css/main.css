@@ -153,15 +153,25 @@ a.view-plans:hover {
 .info   {
     display: flex;
     padding: 2rem 0 7rem 0;
+    text-align: center;
 }
-
+.icon   {
+    display: flex;
+    justify-content: center;
+}
 .icon-image {
     height: 86px;
     width: 86px;
 }
-
+.snappy    {
+    width: 361px;
+}
+.people    {
+    width: 361px;
+}
 .affordable {
     margin: 0 5rem;
+    max-width: 361px;
 }
 
 /* How-We-Work Styling */

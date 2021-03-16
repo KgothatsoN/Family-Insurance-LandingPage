@@ -20,4 +20,9 @@ Fully functional hamburger navigation using javascript.
 
 ![](public/mobilemainview.png) ![](public/activenavbar.png)
 
+<<<<<<< HEAD
 ![](public/mobilepeopleview.png) ![](public/mobilehwrview.png)
+=======
+![](public/mobilepeopleview.png) ![](public/mobilehwrview.png)
+
+>>>>>>> 2fd39e0300002f536a2581a0e24aaeeb737c8037
