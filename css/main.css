@@ -1,8 +1,13 @@
 body    {
     padding: 0;
     margin: 0;
-    font-weight: 400;
-    transition: .3s;
+}
+
+h1,h2   {
+    font-size: 4rem;
+}
+h3  {
+    font-size: 2rem;
 }
 a   {
     text-decoration: none;
@@ -21,7 +26,7 @@ ul  {
 
 /* Desktop Navigation Bar Styling */
 .title  {
-    margin: 1rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
 .title a    {
     color: black;
@@ -54,21 +59,22 @@ ul  {
 }
 
 .view-plans {
-    border: 1px solid #2b2b2b;
+    border: 1px solid black;
     padding: .5rem;
     border-radius: 5px;
-    background-color: #2b2b2b;
+    background-color: black;
 }
 .view-plans:hover   {
-    background-color: black;
-    border-color: black;
+    background-color: #2b2b2b;
+    border-color: #2b2b2b;
 }
 a.view-plans:hover {
     color: white;
 }
 
 .s1 {
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(43,43,43,1) 100%);
 }
 .s1-group    {
     display: flex;
@@ -84,8 +90,9 @@ a.view-plans:hover {
     border: 5px solid white;
     border-radius: 5px;
     padding: 1rem;
-    width: 5rem;
+    width: 7rem;
     color: white;
+    text-align: center;
 }
 .view-btn:hover {
     background-color: white;
@@ -103,10 +110,30 @@ a.view-plans:hover {
     box-shadow: 0 0 12px 5px black;
 }
 
+.main   {
+    padding-bottom: 10rem;
+}
+.info-container {
+    padding-top: 10rem;
+}
+.info   {
+    display: flex;
+    padding: 7rem 0;
+}
+
+.icon-image {
+    height: 86px;
+    width: 86px;
+}
+
+.affordable {
+    margin: 0 5rem;
+}
 .how-we-work {
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(43,43,43,1) 100%);
     text-align: center;
     align-items: center;
     padding: 30px;
@@ -130,4 +157,14 @@ a.view-plans:hover {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+    color: black;
+}
+.footer-container li    {
+    margin-bottom: 10px;
+}
+.footer-container a  {
+    color: hsl(216, 30%, 68%);
+}
+.footer-container a:hover   {
+    color: black;
 }
