@@ -44,15 +44,21 @@ ul  {
     align-items: center;
 }
 
-.navbar-links   {
+.navbar-links ul  {
     display: flex;
+    
 }
 
 .navbar-links li    {
+    display: flex;
     padding: 1rem;
+    align-items: center;
 }
 
-.navbar-links a {
+.navbar-links li a  {
+    display: block;
+    text-decoration: none;
+    
     color: hsl(216, 30%, 68%);
     font-size: 1.1rem;
 }
@@ -73,6 +79,25 @@ ul  {
 }
 a.view-plans:hover {
     color: white;
+}
+
+/* Mobile Nav Styling */
+
+.hamburger  {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 20px;
+    width: 30px;
+    top: 1rem;
+    right: .5rem;
+}
+.hamburger .bar    {
+    display: flex;
+    height: 3px;
+    width: 100%;
+    background-color: black;
 }
 
 .s1 {
@@ -170,4 +195,11 @@ a.view-plans:hover {
 }
 .footer-container a:hover   {
     color: black;
+}
+
+@media  (max-width: 425px)  {
+    .navbar-links   {
+        display: none;
+    }
+    .ham
 }
