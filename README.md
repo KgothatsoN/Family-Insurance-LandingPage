@@ -1,6 +1,12 @@
 # LIFE - Family Insurance Landing Page
 
-A slick morden insurance landing page for mobile and desktop.
+A slick morden insurance landing page for mobile and desktop. 
+
+# Technologies
+* Netlify
+* JavaScript
+* HTML5
+* CSS3
 
 # Desktop
 ![](public/desktopview.png)
