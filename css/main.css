@@ -178,7 +178,6 @@ a.view-plans:hover {
 .how-btn:hover  {
     background-color: white;
     color: black;
-    border-color: black;
 }
 
 /* Footer Styling */
@@ -238,5 +237,11 @@ a.view-plans:hover {
     }
     .info   {
         flex-direction: column;
+    }
+
+    .how-we-work    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
