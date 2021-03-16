@@ -1,4 +1,4 @@
-# LIFE - Family Insurance Landing Page
+# ![LIFE - Family Insurance Landing Page](https://agitated-shockley-700191.netlify.app)
 
 A slick morden insurance landing page for mobile and desktop. 
 
