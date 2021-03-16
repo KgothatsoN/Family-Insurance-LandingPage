@@ -6,7 +6,7 @@ A slick morden insurance landing page for mobile and desktop.
 ![](public/desktopview.png)
 
 # Mobile
-For the full mobile design view [click here](public/mobiledesignview.png)
+For the full mobile design view [click here](public/mobiledesignview.png).
 
 Fully functional hamburger navigation using javascript.
 
