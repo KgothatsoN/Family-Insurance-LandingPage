@@ -5,8 +5,8 @@
 A slick morden insurance landing page for mobile and desktop. 
 
 # Technologies
-* Netlify
-* JavaScript
+* Netlify [![Netlify Status](https://api.netlify.com/api/v1/badges/0a48ba70-4779-4c6d-8e2f-240198f01bef/deploy-status)](https://app.netlify.com/sites/agitated-shockley-700191/deploys) - Hosted on Netlify
+* JavaScript - Used for mobile navigation functionality
 * HTML5
 * CSS3
 
