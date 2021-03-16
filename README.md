@@ -3,9 +3,9 @@
 A slick morden insurance landing page for mobile and desktop.
 
 # Desktop
-![](desktopview.png)
+![](public/desktopview.png)
 
 # Mobile
-For the full mobile design view [click here](mobiledesignview.png)
+For the full mobile design view [click here](public/mobiledesignview.png)
 
-![](mobilemainview.png)![](mobilepeopleview.png)![](mobilehwrview.png)
+![](public/mobilemainview.png)![](public/mobilepeopleview.png)![](public/mobilehwrview.png)
